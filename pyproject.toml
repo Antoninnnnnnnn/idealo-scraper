@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idealo-scraper"
+version = "2.1.0"
+description = "Modern Python scraper for Idealo price comparison website"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Antonin"}
+]
+keywords = ["idealo", "scraper", "price-comparison", "web-scraping", "ecommerce"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = [
+    "curl-cffi>=0.6.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Antonin2938/idealo-scraper"
+Repository = "https://github.com/Antonin2938/idealo-scraper"
+Issues = "https://github.com/Antonin2938/idealo-scraper/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["idealo_scraper*"]
