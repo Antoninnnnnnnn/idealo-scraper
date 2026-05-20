@@ -6,7 +6,7 @@
 
 Modern Python scraper for [Idealo](https://www.idealo.fr) - Europe's leading price comparison website.
 
-> 🤖 **Full disclosure**: This project was built by [@Antonin2938](https://github.com/Antonin2938) who freely admits he doesn't understand a single line of this code. The real MVP here is AI pair programming. Turns out you don't need to know how to code to ship code. Welcome to 2026.
+> 🤖 **Full disclosure**: This project was built by [@Antoninnnnnnnn](https://github.com/Antoninnnnnnnn) who freely admits he doesn't understand a single line of this code. The real MVP here is AI pair programming. Turns out you don't need to know how to code to ship code. Welcome to 2026.
 
 ## Features
 
